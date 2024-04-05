@@ -1,0 +1,24 @@
+{
+	"name": "stdout.media",
+	"description": "Выводим полезную информацию на экран.",
+	"url": "https://stdout.media",
+	"baseUrl": "/",
+	"author": {
+		"handle": "@Nikita_Karasyov",
+		"name": "Nikita Karasyov"
+	},
+	"images": {
+		"twitter": "twitter.png",
+		"og": "og.png"
+	},
+	"feed": {
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"id": "https://stdout.media/"
+	},
+	"jsonfeed": {
+		"filename": "feed.json",
+		"path": "/feed/feed.json",
+		"url": "https://stdout.media/feed/feed.json"
+	}
+}

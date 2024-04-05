@@ -1,0 +1,12 @@
+---
+title: '404 – Page Not Found'
+permalink: /404.html
+---
+
+{% extends 'page.njk' %}
+
+{% block body %}
+  <h2 class="mb-2">{{ title }}</h2>
+  <p class="mb-2">Такой страницы не существует :(</p>
+  <a href="{{ site.baseUrl }}">Вернуться на домашнюю страницу.</a>
+{% endblock %}
